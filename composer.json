@@ -1,0 +1,28 @@
+{
+    "name": "murat-cileli/update-notifier",
+    "description": "Composer update notifier for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MuratCileli\\UpdateNotifier\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Murat Çileli",
+            "email": "murat.cileli@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MuratCileli\\UpdateNotifier\\Providers\\UpdateNotifierProvider"
+            ]
+        }
+    }
+}
