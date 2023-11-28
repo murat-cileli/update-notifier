@@ -9,7 +9,7 @@ use MuratCileli\UpdateNotifier\UpdateNotifier;
 final class UpdateNotifierCommand extends Command
 {
     protected $signature = "update-notifier:notify";
-    protected $description = "Checks updates for Composer packages and notifies.";
+    protected $description = "Checks updates for Composer packages and notifies via e-mail.";
 
     /**
      * @throws \Exception
