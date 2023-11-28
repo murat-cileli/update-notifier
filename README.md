@@ -1,8 +1,8 @@
+![231128161658](https://github.com/murat-cileli/update-notifier/assets/6532000/c3596ca6-5169-41e7-afaf-73f61cb3ffc5)
+
 ### Composer Update Notifier for Laravel
 
 Configurable Laravel package that checks Composer updates and notify via e-mail if any update exist.
-
-![231128161658](https://github.com/murat-cileli/update-notifier/assets/6532000/c3596ca6-5169-41e7-afaf-73f61cb3ffc5)
 
 #### Installation
 `composer require murat-cileli/update-notifier`
