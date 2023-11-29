@@ -15,7 +15,7 @@ Configurable Laravel package that checks Composer updates and notify via e-mail 
 
 `UPDATE_NOTIFIER_DIRECT_PACKAGES`: Checks direct dependencies only if set `true`. Defult: `true`  
 
-`UPDATE_NOTIFIER_DIRECT_PACKAGES`: Checks locked packages only if set `true`. Default: `true`.  
+`UPDATE_NOTIFIER_LOCKED_PACKAGES`: Checks locked packages only if set `true`. Default: `true`.  
 
 `UPDATE_NOTIFIER_DEVELOPMENT_PACKAGES`: Checks development packages if set `true`. Defalut: `false`.  
 
